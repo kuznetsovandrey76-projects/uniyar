@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Lessons</title>
 	<style>	
 		body {
 			background: darkblue;
@@ -26,76 +26,27 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>		
-	<a href="https://html5book.ru/css-colors/">css colors</a>
+	<!-- <a href="https://html5book.ru/css-colors/">css colors</a> -->
 	<script>
-		$( document ).ready(function() {
-				var lessons = [
-					{
-						name: "english", 
-						translate: "Иностранный язык",
-						task: "60 pages",
-						teacher: "Бугрова Ирина Константиновна"
-					},
-					{
-						name: "history", 
-						translate: "История и методология прикладной математики и информатики",
-						task: "30. Из истории информационных технологий в обучении.",
-						teacher: "Шабаршина Галина Владимировна"
-					},
-					{
-						name: "problem", 
-						translate: "Современные проблемы прикладной математики и информатики",
-						task: "LaTeX",
-						teacher: "Балабаев Владимир Евгеньевич"
-					},
-					{
-						name: "technology", 
-						translate: "Современные компьютерные технологии",
-						task: "php",
-						teacher: "Куликов Дмитрий Анатольевич"
-					},
-					{
-						name: "dynamic", 
-						translate: "Динамическое программирование",
-						task: "?",
-						teacher: "Глызин Сергей Дмитриевич"
-					},
-					{
-						name: "oop", 
-						translate: "Объектно-ориентированные языки программирования",
-						task: "php",
-						teacher: "Куликов Дмитрий Анатольевич"
-					},
-					{
-						name: "cuda", 
-						translate: "Массивно-параллельные вычисления, архитектура и среда программирования Cuda",
-						task: "?",
-						teacher: "Кузнецов Владимир Сергеевич"
-					},
-					{
-						name: "economics", 
-						translate: "Математические модели экономики",
-						task: "?",
-						teacher: "Куликов Анатолий Николаевич"
-					},					
-					{
-						name: "gui", 
-						translate: "Проектирование пользовательских интерфейсов",
-						task: "https://gitlab.com/grandrust/ml-course/tree/master/Lab1",
-						teacher: "Кузнецов Владимир Сергеевич"
-					},
-				];
+		$( document ).ready(function() {				
+		// http://jquery.page2page.ru/index.php5/Ajax-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81
 
-		    $.each(lessons, function(key, value) {
-		    	// var templ_p = $('<p id="' + key + '" class="outer">' + value + '</p>')
-		    	var templ_head = $('<p id="' + value.name + '" class="outer">' + value.translate + '</p>')
-		    	// var templ_div = $('<div id="' + key + '-tasks" class="inner">1</div>')
-		    	var templ_info = $('<div id="' + value.name + '-tasks" class="inner">' + value.task + '</div>')
-		    	var templ_foot = $('<p class="teacher">' + value.teacher + '</p>')
-		    	$('body').append(templ_head)
-		    	$('body').append(templ_info)
-		    	$('body').append(templ_foot)
-		    });
+			$.ajax({
+			  	url: "data.json",
+			    success: function(data){
+						setTimeout(function() {
+					    $.each(data, function(key, value) {
+					    	var templ_head = $('<p id="' + value.name + '" class="outer">' + value.translate + '</p>')
+					    	var templ_info = $('<div id="' + value.name + '-tasks" class="inner">' + value.task + '</div>')
+					    	var templ_foot = $('<p class="teacher">' + value.teacher + '</p>')
+					    	$('body').append(templ_head)
+					    	$('body').append(templ_info)
+					    	$('body').append(templ_foot)
+					    });
+						}, 100);
+			  	}
+			});
+
 		});
 	</script>
 </body>
