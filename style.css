@@ -1,0 +1,18 @@
+body {
+	background: darkblue;
+}	
+* {
+	margin: 0;	
+}
+.outer {
+	color: coral;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.inner {
+	color: bisque;			
+}
+.teacher {
+	font-size: 	10px;
+	color: gold;			
+}
