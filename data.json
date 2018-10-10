@@ -16,7 +16,10 @@
 			"name": "problem", 
 			"translate": "Современные проблемы прикладной математики и информатики",
 			"task": "LaTeX",
-			"teacher": "Балабаев Владимир Евгеньевич"
+			"teacher": "Балабаев Владимир Евгеньевич",
+			"info": "MiKTeX from https://miktex.org/, TeXStudio from https://texstudio.org/",
+			"link": "source/problem.html"
+			
 		},
 		{
 			"name": "technology", 
