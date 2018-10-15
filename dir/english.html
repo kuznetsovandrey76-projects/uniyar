@@ -10,6 +10,7 @@
 	<table class="english-words">
 		<thead>				  	
 			<tr class="english-word">
+				<th>№</th>
 				<th class="english-word__note">Слово</th>
 				<th class="english-word__transcription">Транскрипция</th>
 				<th class="english-word__translate">Перевод</th>
@@ -18,6 +19,7 @@
 		<tbody id="tbody"></tbody>
 	</table>
 	<div class="footer">
+		<a href="https://docviewer.yandex.ru/view/223375229/?*=iWflYzYrNsZX%2BjE7ZaM7Y61azNh7InVybCI6InlhLWRpc2stcHVibGljOi8vSDA5TGgxT0M5dXdNbGVubmVXWU5pV3JoSnJJLy81QXVxUGlZV3VKSGtLei9FUDBlRHpHUUs0VVB6SENaenZVcnEvSjZicG1SeU9Kb25UM1ZvWG5EYWc9PSIsInRpdGxlIjoiMWxhbW1lcnNfc19wcm9ncmFtbWVyc19hdF93b3JrX2ludGVydmlld3Nfd2l0aF8xOV9wcm9ncmFtbWVycy5wZGYiLCJ1aWQiOiIyMjMzNzUyMjkiLCJ5dSI6IjY5NTAwNDU2MDE0ODY5MjA5MjIiLCJub2lmcmFtZSI6ZmFsc2UsInRzIjoxNTM5NjIxNzI4NjY0fQ%3D%3D">book</a><br>
 		<a href="https://dictionary.cambridge.org/">dictionary</a><br>
 		<a href="/">home</a>
 		
@@ -32,6 +34,10 @@
 			    	console.log(value)
 
 			    	var tr = $('<tr>')
+
+			    	$('<td>',{
+					    text: key + 1
+					}).appendTo(tr);
 
 			    	$('<td>',{
 					    text: value.word,

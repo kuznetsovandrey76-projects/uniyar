@@ -1,6 +1,50 @@
 { "words": [
-		{ "word": "chief", "transcription": "/tʃiːf/", "translate": "основной, главный" },
-		{ "word": "executive", "transcription": "/ɪɡˈzekjətɪv/", "translate": "исполнительный" }
+		{ "word": "chief", "transcription": "/tʃiːf/", "translate": "основной, главный" }
+		,{ "word": "executive", "transcription": "/ɪɡˈzekjətɪv/", "translate": "исполнительный" }
+		,{ "word": "consider", "transcription": "/kənˈsɪdər/", "translate": "рассматривать" }
+		,{ "word": "attend", "transcription": "/əˈtend/", "translate": "посещать" }
+		,{ "word": "emerging", "transcription": "/ɪˈmɜːdʒɪŋ/", "translate": "возникающий, развивающийся" }
+		,{ "word": "provide", "transcription": "/prəʊˈvaɪd/", "translate": "предоставлять, обеспечивать" }
+		,{ "word": "guidance", "transcription": "/ˈɡaɪdəns/", "translate": "руководство" }
+		,{ "word": "devote", "transcription": "/dɪˈvəʊt/", "translate": "посвящать" }
+		,{ "word": "obviously", "transcription": "/ˈɒbviəsli/", "translate": "явно, очевидно" }
+		,{ "word": "responsibility", "transcription": "/rɪˌspɒnsəˈbɪləti/", "translate": "обязанность" }
+		,{ "word": "approach", "transcription": "/əˈprəʊtʃ/", "translate": "подход" }
+		,{ "word": "pursue", "transcription": "/pəˈsjuː/", "translate": "следовать курсу, придерживаться плана" }
+		,{ "word": "implement", "transcription": "/ˈɪmplɪment/", "translate": "осуществлять, внедрять, подключать" }
+		,{ "word": "involve", "transcription": "/ɪnˈvɒlv/", "translate": "привлекать к участию, вовлекать" }
+		,{ "word": "consider", "transcription": "/kənˈsɪdər/", "translate": "рассматривать, обдумывать" }
+		,{ "word": "achievement", "transcription": "/əˈtʃiːvmənt/", "translate": "достижение, успех" }
+		,{ "word": "appropriate", "transcription": "/əˈprəʊpriət/", "translate": "подходящий" }
+		,{ "word": "tighten", "transcription": "/ˈtaɪtən/", "translate": "сжимать(ся)" }
+		,{ "word": "squeeze", "transcription": "/skwiːz/", "translate": "сжимать, стискивать" }
+		,{ "word": "grasp", "transcription": "/ɡrɑːsp/", "translate": "схватывать, сжимать" }
+		,{ "word": "increase", "transcription": "/ɪnˈkriːs/", "translate": "увеличивать(ся)" }
+		,{ "word": "sloppy", "transcription": "/ˈslɒpi/", "translate": "небрежный" }
+		,{ "word": "craft", "transcription": "/krɑːft/", "translate": "искусно создавать" }
+		,{ "word": "quite", "transcription": "/kwaɪt/", "translate": "довольно, совсем, очень" }
+		,{ "word": "afford", "transcription": "/əˈfɔːd/", "translate": "позволять себе" }
+		,{ "word": "instead", "transcription": "/ɪnˈsted/", "translate": "вместо" }
+		,{ "word": "instance", "transcription": "/ˈɪnstəns/", "translate": "пример, случай" }
+		,{ "word": "exist", "transcription": "/ɪɡˈzɪst/", "translate": "жить, существовать" }
+		,{ "word": "inefficient", "transcription": "/ˌɪnɪˈfɪʃənt/", "translate": "неэффективно" }
+		,{ "word": "environment", "transcription": "/ɪnˈvaɪərənmənt/", "translate": "окружающая среда" }
+		,{ "word": "proven", "transcription": "/ˈpruːvən/", "translate": "доказанный" }
+		,{ "word": "ability", "transcription": "/əˈbɪləti/", "translate": "способность, умение (что-л. делать)" }
+		,{ "word": "absorb", "transcription": "/əbˈzɔːb/", "translate": "впитывать" }
+		,{ "word": "uncertain", "transcription": "/ʌnˈsɜːtən/", "translate": "неуверенный, сомневающийся" }
+		,{ "word": "crucial", "transcription": "/ˈkruːʃəl/", "translate": "ключевой, решающий" }
+		,{ "word": "overlap", "transcription": "/ˌəʊvəˈlæp/", "translate": "частично совпадать" }
+		,{ "word": "hint", "transcription": "/hɪnt/", "translate": "намек, совет" }
+		,{ "word": "allow", "transcription": "/əˈlaʊ/", "translate": "разрешать, допускать" }
+		,{ "word": "capability", "transcription": "/ˌkeɪpəˈbɪləti/", "translate": "способность" }
+		,{ "word": "neat", "transcription": "/niːt/", "translate": "аккуратный, опрятный" }
+		,{ "word": "effort", "transcription": "/ˈefət/", "translate": "попытка" }
+		,{ "word": "terms", "transcription": "/tɜːmz/", "translate": "условия" }
+		,{ "word": "suggestion", "transcription": "/səˈdʒestʃən/", "translate": "предложение, совет" }
+		,{ "word": "eventually", "transcription": "/ɪˈventʃuəli/", "translate": "в конце концов" }
+		,{ "word": "attract", "transcription": "/əˈtrækt/", "translate": "привлекать" }
+		,{ "word": "maverick", "transcription": "/ˈmævərɪk/", "translate": "человек, не похожий на других, белая ворона" }
 ]}
 
 
