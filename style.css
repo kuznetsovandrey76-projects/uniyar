@@ -1,13 +1,16 @@
 body {
 	background: darkblue;
+	margin: 10px;
+	width: 100%;	
 }	
 * {
 	margin: 0;	
 }
-.outer {
+a {
 	color: coral;
 	cursor: pointer;
 	margin-top: 10px;
+	text-decoration: none;
 }
 .inner {
 	color: bisque;			
@@ -15,4 +18,36 @@ body {
 .teacher {
 	font-size: 	10px;
 	color: gold;			
+}
+.outer {
+	margin-bottom: 10px;
+}
+
+/* ENGLISH */
+.english-words {
+	margin: 0 auto;
+	color: bisque;
+	border: 1px solid bisque;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	font-weight: 100;
+}
+
+.english-words th {
+	padding: 0 20px;
+	color: gold;
+}
+
+.english-words td {
+	text-align: center;
+}
+
+.english-word {
+	color: bisque;		
+}
+
+.footer {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 9px;
 }

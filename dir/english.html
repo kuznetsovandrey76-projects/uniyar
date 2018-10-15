@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>English</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+	<table class="english-words">
+		<thead>				  	
+			<tr class="english-word">
+				<th class="english-word__note">Слово</th>
+				<th class="english-word__transcription">Транскрипция</th>
+				<th class="english-word__translate">Перевод</th>
+			</tr>
+		</thead>
+		<tbody id="tbody"></tbody>
+	</table>
+	<div class="footer">
+		<a href="https://dictionary.cambridge.org/">dictionary</a><br>
+		<a href="/">home</a>
+		
+	</div>
+	<script>
+		$( document ).ready(function() {		
+		// http://jquery.page2page.ru/index.php5/Ajax-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81
+		$.ajax({
+		  	url: "english.json",
+		    success: function(data){
+			    $.each(data.words, function(key, value) {
+			    	console.log(value)
+
+			    	var tr = $('<tr>')
+
+			    	$('<td>',{
+					    text: value.word,
+					    class: "english-word__note"
+					}).appendTo(tr);
+
+			    	$('<td>',{
+					    text: value.transcription,
+					    class: "english-word__transcription"
+					}).appendTo(tr);
+
+			    	$('<td>',{
+					    text: value.translate,
+					    class: "english-word__translate"
+					}).appendTo(tr);
+
+			    	$('tbody').append(tr)
+			    });
+		  	}
+		});
+	});
+	</script>
+</body>
+</html>
