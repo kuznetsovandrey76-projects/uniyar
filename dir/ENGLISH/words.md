@@ -2,3 +2,6 @@
 2. casualties profusion spectres augur literacy herald technobabble creativity flexibility imposes sameness fears accompanying emergence arrival perceived invention hierarchy dissemination breakdown innumerable souls damnation established censorship suppress censorship secular widespread cope consequences broadcasting promote undermine anxiety controversy vernacular fuel clarity intelligibility permit remains
 3. increasing range unprecedented provision advertisements bulletins alongside  
 entertainment steadily amalgam conventional coined capture notion superhighway retrieval posed existence amount denying scale significance conventionally initial enhancement citizen appreciable amounts  
+4. self-reflect self-descriptions carved carried venture manuscript appointments engage demanding frequent either covetous occupied immersion represents asynchronous solitary flirtation occasionally aims direct confrontation addicted doorstep  
+5. consequences modest scale intensity particular pervasive mentioned distinctive varieties prominence hyperverbal sonic facilitates constrains ability semiotic expectations obtain therefore investigate behaviour genuinely evolving allow  far-reaching overstate notion sight persuasive close-knit
+
