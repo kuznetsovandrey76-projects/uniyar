@@ -4,4 +4,7 @@
 entertainment steadily amalgam conventional coined capture notion superhighway retrieval posed existence amount denying scale significance conventionally initial enhancement citizen appreciable amounts  
 4. self-reflect self-descriptions carved carried venture manuscript appointments engage demanding frequent either covetous occupied immersion represents asynchronous solitary flirtation occasionally aims direct confrontation addicted doorstep  
 5. consequences modest scale intensity particular pervasive mentioned distinctive varieties prominence hyperverbal sonic facilitates constrains ability semiotic expectations obtain therefore investigate behaviour genuinely evolving allow  far-reaching overstate notion sight persuasive close-knit
+6. distinguishes members elsewhere genuine shared features sense identity discern unifying towards unity related notions investigate emerging homogenous distinct purposes attitudes aggregation idiosyncratic defy variety occupational 
+7. Predictable particular Notions behave conventionally contempt adopt judged acceptable politeness intelligibility govern dare accordingly distinctive approaches recognize 
+8. distinctive chiefly captions distinctive emphasis distinguished distinctive heretofore easement alleged sealed discourse coherence relevance within sequence abstract conclusion affair presence 
 
